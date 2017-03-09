@@ -541,7 +541,7 @@ gboolean anaconda_disk_overview_get_chosen(AnacondaDiskOverview *widget) {
  * Since: 1.0
  */
 void anaconda_disk_overview_set_chosen(AnacondaDiskOverview *widget, gboolean is_chosen) {
-    widget->priv->chosen = is_chosen;
+    //widget->priv->chosen = is_chosen;
     anaconda_disk_overview_toggle_background(widget);
 }
 
